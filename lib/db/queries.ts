@@ -136,10 +136,20 @@ export async function voteMessage({
   type: 'up' | 'down';
 }) {
   try {
+    // First verify that the message exists and belongs to the chat
+    const [message] = await db
+      .select()
+      .from(message)
+      .where(and(eq(message.id, messageId), eq(message.chatId, chatId)));
+
+    if (!message) {
+      throw new Error('Message not found or does not belong to chat');
+    }
+
     const [existingVote] = await db
       .select()
       .from(vote)
-      .where(and(eq(vote.messageId, messageId)));
+      .where(and(eq(vote.messageId, messageId), eq(vote.chatId, chatId)));
 
     if (existingVote) {
       return await db
@@ -147,13 +157,14 @@ export async function voteMessage({
         .set({ isUpvoted: type === 'up' })
         .where(and(eq(vote.messageId, messageId), eq(vote.chatId, chatId)));
     }
+
     return await db.insert(vote).values({
       chatId,
       messageId,
       isUpvoted: type === 'up',
     });
   } catch (error) {
-    console.error('Failed to upvote message in database', error);
+    console.error('Failed to vote message in database:', error);
     throw error;
   }
 }

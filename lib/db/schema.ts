@@ -21,14 +21,15 @@ export type User = InferSelectModel<typeof user>;
 
 export const chat = pgTable('Chat', {
   id: uuid('id').primaryKey().notNull().defaultRandom(),
-  createdAt: timestamp('createdAt').notNull(),
-  title: text('title').notNull(),
   userId: uuid('userId')
     .notNull()
     .references(() => user.id),
-  visibility: varchar('visibility', { enum: ['public', 'private'] })
+  title: text('title').notNull(),
+  createdAt: timestamp('createdAt').notNull(),
+  visibility: text('visibility', { enum: ['private', 'public'] })
     .notNull()
     .default('private'),
+  modelId: text('modelId').notNull().default('hyperbolic-llama-70b'),
 });
 
 export type Chat = InferSelectModel<typeof chat>;
@@ -38,8 +39,8 @@ export const message = pgTable('Message', {
   chatId: uuid('chatId')
     .notNull()
     .references(() => chat.id),
-  role: varchar('role').notNull(),
-  content: json('content').notNull(),
+  role: varchar('role', { enum: ['user', 'assistant'] }).notNull(),
+  content: text('content').notNull(),
   createdAt: timestamp('createdAt').notNull(),
 });
 
@@ -72,7 +73,7 @@ export const document = pgTable(
     createdAt: timestamp('createdAt').notNull(),
     title: text('title').notNull(),
     content: text('content'),
-    kind: varchar('text', { enum: ['text', 'code'] })
+    kind: varchar('kind', { enum: ['text', 'code'] })
       .notNull()
       .default('text'),
     userId: uuid('userId')

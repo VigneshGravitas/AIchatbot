@@ -1,4 +1,5 @@
 import type { ComponentProps } from 'react';
+import { Columns2 } from 'lucide-react';
 
 import { type SidebarTrigger, useSidebar } from '@/components/ui/sidebar';
 import {
@@ -6,8 +7,6 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-
-import { SidebarLeftIcon } from './icons';
 import { Button } from './ui/button';
 
 export function SidebarToggle({
@@ -21,9 +20,9 @@ export function SidebarToggle({
         <Button
           onClick={toggleSidebar}
           variant="outline"
-          className="md:px-2 md:h-fit"
+          className="md:px-3 md:h-fit"
         >
-          <SidebarLeftIcon size={16} />
+          <Columns2 className="h-8 w-8" />
         </Button>
       </TooltipTrigger>
       <TooltipContent align="start">Toggle Sidebar</TooltipContent>

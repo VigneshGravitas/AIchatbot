@@ -3,30 +3,33 @@ import { drizzle } from 'drizzle-orm/postgres-js';
 import { migrate } from 'drizzle-orm/postgres-js/migrator';
 import postgres from 'postgres';
 
-config({
-  path: '.env.local',
-});
+// Load environment variables from .env file
+config();
 
-const runMigrate = async () => {
+const sql = postgres(process.env.POSTGRES_URL!, { max: 1 });
+const db = drizzle(sql);
+
+async function main() {
   if (!process.env.POSTGRES_URL) {
     throw new Error('POSTGRES_URL is not defined');
   }
 
-  const connection = postgres(process.env.POSTGRES_URL, { max: 1 });
-  const db = drizzle(connection);
+  try {
+    console.log('⏳ Running migrations...');
 
-  console.log('⏳ Running migrations...');
+    const start = Date.now();
+    await migrate(db, { migrationsFolder: './drizzle' });
+    const end = Date.now();
 
-  const start = Date.now();
-  await migrate(db, { migrationsFolder: './lib/db/migrations' });
-  const end = Date.now();
+    console.log('✅ Migrations completed in', end - start, 'ms');
+    await sql.end();
+    process.exit(0);
+  } catch (error) {
+    console.error('❌ Migration failed');
+    console.error('Migration failed:', error);
+    await sql.end();
+    process.exit(1);
+  }
+}
 
-  console.log('✅ Migrations completed in', end - start, 'ms');
-  process.exit(0);
-};
-
-runMigrate().catch((err) => {
-  console.error('❌ Migration failed');
-  console.error(err);
-  process.exit(1);
-});
+main();
