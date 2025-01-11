@@ -41,6 +41,15 @@ export function Chat({
 
   const { data: votes } = useSWR<Array<Vote>>(`/api/vote?chatId=${id}`, fetcher);
 
+  useEffect(() => {
+    setCurrentModelId(initialModelId);
+  }, [initialModelId]);
+
+  const handleModelChange = (modelId: string) => {
+    setCurrentModelId(modelId);
+    router.refresh(); 
+  };
+
   const append = async (
     message: Message | CreateMessage,
     _chatRequestOptions?: ChatRequestOptions
@@ -146,46 +155,45 @@ export function Chat({
   };
 
   return (
-    <>
-      <div className="flex flex-col min-w-0 h-dvh bg-background">
-        <ChatHeader
-          chatId={id}
-          selectedModelId={currentModelId}
-          selectedVisibilityType={selectedVisibilityType}
-          isReadonly={isReadonly}
-        />
+    <div className="flex flex-col min-w-0 h-dvh bg-background">
+      <ChatHeader
+        chatId={id}
+        selectedModelId={currentModelId}
+        selectedVisibilityType={selectedVisibilityType}
+        isReadonly={isReadonly}
+        onModelChange={handleModelChange}
+      />
 
-        <ScrollArea className="flex-1">
-          <Messages
+      <ScrollArea className="flex-1">
+        <Messages
+          chatId={id}
+          isLoading={isLoading}
+          votes={votes}
+          messages={messages}
+          setMessages={setMessages}
+          reload={reload}
+          isReadonly={isReadonly}
+          isBlockVisible={isBlockVisible}
+        />
+      </ScrollArea>
+
+      <form onSubmit={handleSubmit} className="flex mx-auto px-4 bg-background pb-4 md:pb-6 gap-2 w-full md:max-w-3xl">
+        {!isReadonly && (
+          <MultimodalInput
             chatId={id}
+            input={input}
+            setInput={setInput}
+            handleSubmit={handleSubmit}
             isLoading={isLoading}
-            votes={votes}
+            stop={stop}
+            attachments={attachments}
+            setAttachments={setAttachments}
             messages={messages}
             setMessages={setMessages}
-            reload={reload}
-            isReadonly={isReadonly}
-            isBlockVisible={isBlockVisible}
+            append={append}
           />
-        </ScrollArea>
-
-        <form onSubmit={handleSubmit} className="flex mx-auto px-4 bg-background pb-4 md:pb-6 gap-2 w-full md:max-w-3xl">
-          {!isReadonly && (
-            <MultimodalInput
-              chatId={id}
-              input={input}
-              setInput={setInput}
-              handleSubmit={handleSubmit}
-              isLoading={isLoading}
-              stop={stop}
-              attachments={attachments}
-              setAttachments={setAttachments}
-              messages={messages}
-              setMessages={setMessages}
-              append={append}
-            />
-          )}
-        </form>
-      </div>
+        )}
+      </form>
 
       {isBlockVisible && (
         <Block
@@ -205,6 +213,6 @@ export function Chat({
           isReadonly={isReadonly}
         />
       )}
-    </>
+    </div>
   );
 }

@@ -25,7 +25,7 @@ export const models: ModelConfig[] = [
     modelId: process.env.HYPERBOLIC_MODEL!,
     parameters: {
       temperature: 0.7,
-      max_tokens: 512,
+      max_tokens: 2048,
       top_p: 0.9,
       stream: true
     }
@@ -40,6 +40,21 @@ export const models: ModelConfig[] = [
       temperature: 0.7,
       max_tokens: 1024,
       top_p: 0.95,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+      stream: true
+    }
+  },
+  {
+    id: 'lmstudio-phi-4',
+    name: 'Phi-4',
+    provider: 'lmstudio',
+    apiEndpoint: 'http://localhost:1234/v1/chat/completions',
+    modelId: 'phi-4',
+    parameters: {
+      temperature: 0.7,
+      max_tokens: 2048,
+      top_p: 0.9,
       frequency_penalty: 0.0,
       presence_penalty: 0.0,
       stream: true
