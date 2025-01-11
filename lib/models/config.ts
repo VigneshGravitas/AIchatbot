@@ -34,7 +34,7 @@ export const models: ModelConfig[] = [
     id: 'lmstudio-llama-3.2-1b',
     name: 'Llama 3.2 1B Instruct',
     provider: 'lmstudio',
-    apiEndpoint: 'http://192.168.2.1:1234/v1/chat/completions',
+    apiEndpoint: 'http://localhost:1234/v1/chat/completions',
     modelId: 'llama-3.2-1b-instruct',
     parameters: {
       temperature: 0.7,
@@ -42,6 +42,32 @@ export const models: ModelConfig[] = [
       top_p: 0.95,
       frequency_penalty: 0.0,
       presence_penalty: 0.0,
+      stream: true
+    }
+  },
+  {
+    id: 'lmstudio-qwen',
+    name: 'Qwen 2.5 7B Instruct',
+    provider: 'lmstudio',
+    apiEndpoint: 'http://localhost:1234/v1/chat/completions',
+    modelId: 'qwen2.5-7b-instruct',
+    parameters: {
+      temperature: 0.7,
+      max_tokens: 2048,
+      top_p: 0.9,
+      stream: true
+    }
+  },
+  {
+    id: 'lmstudio-qwen-vl',
+    name: 'Qwen 2 VL 7B Instruct',
+    provider: 'lmstudio',
+    apiEndpoint: 'http://localhost:1234/v1/chat/completions',
+    modelId: 'qwen2-vl-7b-instruct',
+    parameters: {
+      temperature: 0.7,
+      max_tokens: 2048,
+      top_p: 0.9,
       stream: true
     }
   },

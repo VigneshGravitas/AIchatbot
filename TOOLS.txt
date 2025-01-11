@@ -1,0 +1,80 @@
+# AI Chatbot Tools and Usage Guide
+
+## Available Models
+
+1. Hyperbolic Llama 70B
+   - Provider: hyperbolic
+   - Endpoint: Environment variable HYPERBOLIC_API_ENDPOINT
+   - API Key: Required (HYPERBOLIC_API_KEY)
+
+2. LMStudio Models
+   a. Llama 3.2 1B Instruct
+      - Provider: lmstudio
+      - Endpoint: http://localhost:1234/v1/chat/completions
+      - No API key required
+
+   b. Qwen 2.5 7B Instruct
+      - Provider: lmstudio
+      - Endpoint: http://localhost:1234/v1/chat/completions
+      - Parameters:
+        - Temperature: 0.7
+        - Max Tokens: -1
+        - Stream: false
+
+## Setup Instructions
+
+1. LMStudio Setup:
+   - Download and install LMStudio
+   - Load your preferred model (Llama, Qwen, etc.)
+   - Start the local server (default port: 1234)
+   - Ensure the server is running before using the chat
+
+2. Environment Variables:
+   - For Hyperbolic model:
+     ```
+     HYPERBOLIC_API_ENDPOINT=your_endpoint_here
+     HYPERBOLIC_API_KEY=your_api_key_here
+     HYPERBOLIC_MODEL=your_model_here
+     ```
+
+## API Usage
+
+1. Chat Completion Endpoint:
+   ```
+   POST http://localhost:1234/v1/chat/completions
+   Content-Type: application/json
+
+   {
+     "model": "qwen2.5-7b-instruct",
+     "messages": [
+       {
+         "role": "user",
+         "content": "Your message here"
+       }
+     ],
+     "temperature": 0.7,
+     "max_tokens": -1,
+     "stream": false
+   }
+   ```
+
+2. Models List Endpoint:
+   ```
+   GET http://localhost:1234/v1/models
+   ```
+
+## Troubleshooting
+
+1. Connection Issues:
+   - Verify LMStudio is running
+   - Check if the correct port (1234) is being used
+   - Ensure no firewall is blocking the connection
+
+2. Model Loading:
+   - Make sure the model is properly loaded in LMStudio
+   - Check if the model ID matches exactly in the configuration
+
+3. Response Issues:
+   - Check the max_tokens parameter (-1 for unlimited)
+   - Adjust temperature for response creativity (0.7 recommended)
+   - Monitor system resources for large models
