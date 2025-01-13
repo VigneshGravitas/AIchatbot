@@ -23,12 +23,16 @@ export function Chat({
   selectedModelId: initialModelId,
   selectedVisibilityType,
   isReadonly,
+  toolMode = false,
+  onModelChange,
 }: {
   id: string;
   initialMessages: Array<Message>;
   selectedModelId: string;
   selectedVisibilityType: VisibilityType;
   isReadonly: boolean;
+  toolMode?: boolean;
+  onModelChange?: (modelId: string) => void;
 }) {
   const router = useRouter();
   const { mutate } = useSWRConfig();
@@ -47,28 +51,7 @@ export function Chat({
 
   const handleModelChange = (modelId: string) => {
     setCurrentModelId(modelId);
-    router.refresh(); 
-  };
-
-  const append = async (
-    message: Message | CreateMessage,
-    _chatRequestOptions?: ChatRequestOptions
-  ): Promise<string | null | undefined> => {
-    if (!message.id) {
-      message.id = nanoid();
-    }
-    setMessages(prev => [...prev, message as Message]);
-    return message.id;
-  };
-
-  const stop = async () => {
-    return null;
-  };
-
-  const reload = async (
-    _chatRequestOptions?: ChatRequestOptions
-  ): Promise<string | null | undefined> => {
-    return null;
+    onModelChange?.(modelId);
   };
 
   const handleSubmit = async (
@@ -89,13 +72,15 @@ export function Chat({
       setMessages(prev => [...prev, userMessage]);
       setInput('');
 
-      const response = await fetch('/api/chat', {
+      const endpoint = toolMode ? '/api/tools/chat' : '/api/chat';
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           messages: [...messages, userMessage],
           modelId: currentModelId,
-          chatId: id
+          chatId: id,
+          toolMode,
         })
       });
 
@@ -127,28 +112,45 @@ export function Chat({
           if (!line.startsWith('data: ')) continue;
           
           try {
-            const json = JSON.parse(line.slice(5));
-            const content = json.choices?.[0]?.delta?.content || '';
-            if (content) {
+            const data = line.slice(5).trim();
+            if (data === '[DONE]') continue;
+
+            const json = JSON.parse(data);
+            if (json.type === 'tool_result' || json.type === 'tool_error') {
+              // Handle tool results/errors
+              fullContent += `\n[${json.type === 'tool_result' ? 'Tool Result' : 'Tool Error'}]: ${JSON.stringify(json.result || json.error)}\n`;
+            } else if (json.choices?.[0]?.delta?.content) {
+              const content = json.choices[0].delta.content;
               fullContent += content;
-              setMessages(prev => {
-                const lastMessage = prev[prev.length - 1];
-                if (lastMessage.role === 'assistant') {
-                  return [
-                    ...prev.slice(0, -1),
-                    { ...lastMessage, content: fullContent }
-                  ];
-                }
-                return prev;
-              });
             }
+            
+            setMessages(prev => {
+              const lastMessage = prev[prev.length - 1];
+              if (lastMessage.role === 'assistant') {
+                return [
+                  ...prev.slice(0, -1),
+                  { ...lastMessage, content: fullContent }
+                ];
+              }
+              return prev;
+            });
           } catch (e) {
-            console.error('Error parsing chunk:', e);
+            console.error('Error parsing chunk:', e, 'Line:', line);
+            continue;
           }
         }
       }
     } catch (error) {
-      console.error('Error sending message:', error);
+      console.error('Error:', error);
+      setMessages(prev => [
+        ...prev,
+        {
+          id: nanoid(),
+          role: 'assistant',
+          content: 'Sorry, there was an error processing your request.',
+          createdAt: new Date()
+        }
+      ]);
     } finally {
       setIsLoading(false);
     }
@@ -171,7 +173,7 @@ export function Chat({
           votes={votes}
           messages={messages}
           setMessages={setMessages}
-          reload={reload}
+          reload={async () => null}
           isReadonly={isReadonly}
           isBlockVisible={isBlockVisible}
         />
@@ -185,12 +187,18 @@ export function Chat({
             setInput={setInput}
             handleSubmit={handleSubmit}
             isLoading={isLoading}
-            stop={stop}
+            stop={async () => null}
             attachments={attachments}
             setAttachments={setAttachments}
             messages={messages}
             setMessages={setMessages}
-            append={append}
+            append={async (message) => {
+              if (!message.id) {
+                message.id = nanoid();
+              }
+              setMessages(prev => [...prev, message as Message]);
+              return message.id;
+            }}
           />
         )}
       </form>
@@ -202,13 +210,19 @@ export function Chat({
           setInput={setInput}
           handleSubmit={handleSubmit}
           isLoading={isLoading}
-          stop={stop}
+          stop={async () => null}
           attachments={attachments}
           setAttachments={setAttachments}
-          append={append}
+          append={async (message) => {
+            if (!message.id) {
+              message.id = nanoid();
+            }
+            setMessages(prev => [...prev, message as Message]);
+            return message.id;
+          }}
           messages={messages}
           setMessages={setMessages}
-          reload={reload}
+          reload={async () => null}
           votes={votes}
           isReadonly={isReadonly}
         />

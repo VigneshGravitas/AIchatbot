@@ -9,6 +9,8 @@ import {
   primaryKey,
   foreignKey,
   boolean,
+  serial,
+  numeric,
 } from 'drizzle-orm/pg-core';
 
 export const user = pgTable('User', {
@@ -114,3 +116,14 @@ export const suggestion = pgTable(
 );
 
 export type Suggestion = InferSelectModel<typeof suggestion>;
+
+export const product = pgTable('Product', {
+  id: serial('id').primaryKey(),
+  name: varchar('name', { length: 255 }).notNull(),
+  description: text('description'),
+  price: numeric('price').notNull(),
+  category: varchar('category', { length: 100 }).notNull(),
+  createdAt: timestamp('createdAt').defaultNow(),
+});
+
+export type Product = InferSelectModel<typeof product>;

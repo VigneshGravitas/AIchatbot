@@ -1,7 +1,7 @@
 import type { ComponentProps } from 'react';
 import { Columns2 } from 'lucide-react';
 
-import { type SidebarTrigger, useSidebar } from '@/components/ui/sidebar';
+import { useSidebar } from '@/components/ui/sidebar';
 import {
   Tooltip,
   TooltipContent,
@@ -9,18 +9,21 @@ import {
 } from '@/components/ui/tooltip';
 import { Button } from './ui/button';
 
-export function SidebarToggle({
-  className,
-}: ComponentProps<typeof SidebarTrigger>) {
+interface SidebarToggleProps {
+  className?: string;
+  onClick?: () => void;
+}
+
+export function SidebarToggle({ className, onClick }: SidebarToggleProps) {
   const { toggleSidebar } = useSidebar();
 
   return (
     <Tooltip>
       <TooltipTrigger asChild>
         <Button
-          onClick={toggleSidebar}
+          onClick={onClick || toggleSidebar}
           variant="outline"
-          className="md:px-3 md:h-fit"
+          className={`md:px-3 md:h-fit ${className || ''}`}
         >
           <Columns2 className="h-8 w-8" />
         </Button>

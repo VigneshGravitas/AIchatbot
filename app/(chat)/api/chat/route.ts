@@ -4,6 +4,7 @@ import { db } from '@/lib/db';
 import { chat, message, vote } from '@/lib/db/schema';
 import { desc, eq, and } from 'drizzle-orm';
 import { getModelProvider } from '@/lib/models';
+import { tools, toolDefinitions } from '@/lib/tools';
 
 // Using Node.js runtime for database compatibility
 // export const runtime = 'edge';
@@ -16,7 +17,7 @@ export async function POST(req: Request) {
       return new Response('Unauthorized', { status: 401 });
     }
 
-    const { messages, chatId, modelId } = await req.json();
+    const { messages, chatId, modelId, toolMode } = await req.json();
     if (!modelId) {
       return new Response('Model ID is required', { status: 400 });
     }
@@ -87,8 +88,20 @@ export async function POST(req: Request) {
       // Get the model provider based on the selected model
       const provider = getModelProvider(modelId);
       
-      // Generate the completion
-      const { response } = await provider.generateChatCompletion(messages);
+      // Generate the completion with tool support if toolMode is enabled
+      const { response } = await provider.generateChatCompletion(
+        messages,
+        toolMode ? {
+          tools: Object.entries(toolDefinitions).map(([name, def]) => ({
+            type: 'function',
+            function: {
+              name,
+              description: def.description,
+              parameters: def.parameters
+            }
+          }))
+        } : undefined
+      );
 
       // Create a TransformStream to process and save the response
       const encoder = new TextEncoder();
@@ -107,6 +120,39 @@ export async function POST(req: Request) {
             if (trimmedLine.startsWith('data: ')) {
               try {
                 const data = JSON.parse(trimmedLine.slice(6));
+                
+                // Handle tool calls if present
+                if (toolMode && data.tool_calls) {
+                  for (const toolCall of data.tool_calls) {
+                    const tool = tools[toolCall.function.name];
+                    if (tool) {
+                      try {
+                        const args = JSON.parse(toolCall.function.arguments);
+                        const result = await tool(args);
+                        controller.enqueue(
+                          encoder.encode(
+                            `data: ${JSON.stringify({
+                              type: 'tool_result',
+                              id: toolCall.id,
+                              result
+                            })}\n\n`
+                          )
+                        );
+                      } catch (toolError) {
+                        controller.enqueue(
+                          encoder.encode(
+                            `data: ${JSON.stringify({
+                              type: 'tool_error',
+                              id: toolCall.id,
+                              error: toolError instanceof Error ? toolError.message : 'Tool execution failed'
+                            })}\n\n`
+                          )
+                        );
+                      }
+                    }
+                  }
+                }
+
                 const content = data.choices?.[0]?.delta?.content || '';
                 if (content) {
                   fullResponse += content;
