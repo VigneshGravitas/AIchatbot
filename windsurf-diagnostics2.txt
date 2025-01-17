@@ -1,0 +1,1293 @@
+{
+  "systemInfo": {
+    "operatingSystem": "win32",
+    "windsurfVersion": "11.0.0",
+    "userEmail": "sathishswaran@gmail.com",
+    "timestamp": "2025-01-15T13:27:16.425Z",
+    "installationId": "4112c6c7-1adc-4ee0-b9d8-1203a4583706"
+  },
+  "userSettings": {
+    "openMostRecentChatConversation": true,
+    "lastSelectedModel": "MODEL_UNSPECIFIED",
+    "themePreference": "THEME_PREFERENCE_UNSPECIFIED",
+    "extensionPanelTab": "EXTENSION_PANEL_TAB_UNSPECIFIED",
+    "fontSize": "FONT_SIZE_DEFAULT",
+    "autocompleteSpeed": "AUTOCOMPLETE_SPEED_FAST",
+    "rememberLastModelSelection": "REMEMBER_LAST_MODEL_SELECTION_ENABLED",
+    "lastSelectedModelName": "",
+    "lastSelectedCascadeModel": "MODEL_CLAUDE_3_5_SONNET_20241022",
+    "cascadeNuxStates": [
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      },
+      {
+        "event": "CASCADE_NUX_EVENT_DIFF_OVERVIEW"
+      }
+    ],
+    "cascadePlannerMode": "CONVERSATIONAL_PLANNER_MODE_DEFAULT",
+    "cascadeAllowedCommands": [],
+    "cascadeDeniedCommands": [],
+    "enableModelBasedAutoExecution": false
+  },
+  "languageServerLogs": {
+    "languageServerDiagnostics": {
+      "logs": [
+        "I0115 18:16:02.296244 25284 main.go:568] Setting GOMAXPROCS to 8\n",
+        "I0115 18:16:02.332288 25284 main.go:780] Starting language server process with pid 25284\n",
+        "I0115 18:16:02.332795 25284 server.go:216] Language server will attempt to listen on host 127.0.0.1\n",
+        "I0115 18:16:02.367280 25284 server.go:223] Language server listening on random port at 63841\n",
+        "I0115 18:16:04.824271 25284 unleash.go:92] Initializing Unleash\n",
+        "I0115 18:16:15.248426 25284 unleash.go:112] Successfully initialized Unleash\n",
+        "I0115 18:16:15.249898 25284 server.go:291] Created extension server client at port 63840\n",
+        "E0115 18:16:15.562075 25284 client_manager.go:275] Metadata is nil when trying to refresh user JWT\n",
+        "I0115 18:16:15.564691 25284 server.go:524] Successfully created API server client\n",
+        "I0115 18:16:15.657409 25284 server.go:542] Successfully initialized tokenizer\n",
+        "I0115 18:16:21.204814 25284 server.go:717] Local search is enabled, will index local files.\n",
+        "I0115 18:16:21.204814 25284 server.go:721] Using 2 indexer workers\n",
+        "I0115 18:16:21.919301 25284 sqlite_faiss_db_client.go:64] Successfully created embedding search database in 714ms\n",
+        "I0115 18:16:21.919833 25284 indexer.go:213] Using 8 embed workers\n",
+        "I0115 18:16:21.919833 25284 search_provider.go:274] Successfully created and started indexer\n",
+        "I0115 18:16:21.919833 25284 search_provider.go:304] Successfully created embedding search provider\n",
+        "I0115 18:16:23.834389 25284 server.go:809] Successfully created completion provider\n",
+        "I0115 18:16:23.890430 25284 server.go:352] LSP listening on random port at 63854\n",
+        "I0115 18:16:24.344850 25284 utils.go:227] Analyzing workspace files for c:/Users/vig/CascadeProjects/ai-chatbot\n",
+        "I0115 18:16:25.532730 25284 utils.go:281] Done analyzing workspace files for c:/Users/vig/CascadeProjects/ai-chatbot\n",
+        "I0115 18:16:26.133524 25284 lazy_model.go:31] Successfully created embedding store\n",
+        "E0115 18:24:21.545737 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:24:21.604673 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:24:21.608140 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:24:21.613726 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:24:21.617997 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:24:21.618781 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:24:21.621641 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:50:54.831289 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:50:54.831289 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:24.837146 25284 client_manager.go:294] Error getting user JWT: context deadline exceeded\n",
+        "E0115 18:51:29.305782 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:29.314077 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:29.552988 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:29.636934 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:29.640399 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:29.840462 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:30.024345 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:30.131303 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:30.263811 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:30.553570 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:30.557518 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:30.729260 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:51:45.572300 25284 client_manager.go:294] Error getting user JWT: context deadline exceeded\n",
+        "E0115 18:52:28.631233 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:28.939423 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:32.274881 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:32.484876 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:32.640586 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:32.813833 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:33.117017 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:33.300566 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:33.670910 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:33.779528 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:34.178537 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:34.194645 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:52:34.396417 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:05.016435 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:05.222481 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:08.580710 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:11.053560 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:13.976192 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:14.539663 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:17.914078 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:17.920942 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:18.081008 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:18.087151 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:18.092682 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:18.186848 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:18.371376 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:18.608247 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:19.493005 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:19.631626 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:22.946425 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:23.310632 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:23.439755 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:24.105604 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:29.093455 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:29.746587 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:29.969517 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:30.103375 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:30.235937 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:30.471326 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:30.863371 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:30.877532 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:30.880231 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:31.112984 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:31.526428 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:31.777741 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:53:31.779972 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:28.787392 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:29.703194 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:35.361760 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:35.747375 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:36.319378 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:37.269635 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:37.331033 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:42.057868 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:42.717314 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:42.935800 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:46.641972 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:48.448386 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:49.918234 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:49.926344 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:53.339419 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:54.026515 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:54.029625 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:54.980300 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:59.808234 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:56:59.811182 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:00.924841 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:00.926807 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:04.795881 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:05.216497 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:05.359255 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:05.643478 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:05.801892 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:06.048849 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:06.577975 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:06.585521 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:06.703917 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.015745 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.194573 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.492967 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.658334 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.761957 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.842161 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n",
+        "E0115 18:57:07.853635 25284 interceptor.go:54] /exa.language_server_pb.LanguageServerService/GetCodeValidationStates: open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.\n"
+      ]
+    }
+  },
+  "recentTrajectories": [
+    {
+      "cascadeId": "42a2be8b-e1e4-477e-ad5c-690f3e75c597",
+      "summary": "Continuing Teams Bot Development  ",
+      "lastStepIndex": 61,
+      "lastModifiedTime": "2025-01-15T13:27:04.256Z"
+    },
+    {
+      "cascadeId": "d1e7e7e0-f976-46c9-9436-72897bc05a5a",
+      "summary": "Testing and Configuring Teams Bot",
+      "lastStepIndex": 839,
+      "lastModifiedTime": "2025-01-15T12:38:58.428Z"
+    },
+    {
+      "cascadeId": "deb29f96-1c00-4589-9586-13338a4fc5e1",
+      "summary": "Finding Team-Related Commits  ",
+      "lastStepIndex": 73,
+      "lastModifiedTime": "2025-01-15T10:38:06.084Z"
+    },
+    {
+      "cascadeId": "c07de0b0-8e58-4353-a9b3-c5d413bccb00",
+      "summary": "Viewing Commits in Git Branch  ",
+      "lastStepIndex": 3,
+      "lastModifiedTime": "2025-01-15T10:14:04.311Z"
+    },
+    {
+      "cascadeId": "2b90c09b-e4a7-4ecc-b6c1-79145d6db41f",
+      "summary": "Integrating OpsGenie API Key",
+      "lastStepIndex": 186,
+      "lastModifiedTime": "2025-01-14T13:50:52.635Z"
+    },
+    {
+      "cascadeId": "fb84266d-e7f5-40e9-964f-72b0bf5e9a49",
+      "summary": "Improving Tool Use UI",
+      "lastStepIndex": 476,
+      "lastModifiedTime": "2025-01-14T08:21:53.746Z"
+    },
+    {
+      "cascadeId": "d605fe2d-b4e9-47f7-924b-35da7533db3a",
+      "summary": "Integrating OpsGenie and Confluence APIs",
+      "lastStepIndex": 963,
+      "lastModifiedTime": "2025-01-13T15:13:30.182Z"
+    },
+    {
+      "cascadeId": "350fad34-db11-4253-ac1e-205379bc7ce2",
+      "summary": "Integrating Python Into Next.js UI  ",
+      "lastStepIndex": 578,
+      "lastModifiedTime": "2025-01-12T08:34:59.502Z"
+    },
+    {
+      "cascadeId": "3fd3b4f2-87cc-4459-8d7d-4762e42bc6e9",
+      "summary": "Improving Speech-to-Text Accuracy",
+      "lastStepIndex": 398,
+      "lastModifiedTime": "2025-01-11T16:30:36.858Z"
+    },
+    {
+      "cascadeId": "b418a80f-9d8c-486f-a846-16293b4408af",
+      "summary": "Integrating Phi-4 Model Functionality",
+      "lastStepIndex": 93,
+      "lastModifiedTime": "2025-01-11T14:17:47.560Z"
+    }
+  ],
+  "consoleLogs": [
+    "[WARN] 2025-1-15 18:16:28.693 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.693 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.693 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.693 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.694 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.695 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.695 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.695 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:16:28.695 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.340 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.340 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.341 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.341 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.341 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.341 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.341 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.341 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.342 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.342 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.342 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.342 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.342 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.342 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.343 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.343 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.343 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.343 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.344 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.345 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.346 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.347 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.347 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.347 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.347 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.347 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.347 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.419 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.419 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.419 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:24:21.419 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:24:21.568 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:21.616 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:21.620 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:21.622 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:21.623 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:21.623 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:21.625 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:24:51.945 [AsyncPostMessage] handleOpenQuickSettings timed out (id: xbRy3DUSxTORCAMHcBlZNe99MmEfZlT0)",
+    "[LOG] 2025-1-15 18:50:54.346 [ExtensionClient] logging event 36 ",
+    "[WARN] 2025-1-15 18:50:54.750 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:50:54.750 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:50:54.862 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:50:54.863 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:29.342 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:29.343 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:29.630 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:29.642 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:29.646 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:29.852 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:30.29 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:30.204 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:30.269 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:30.566 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:30.567 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:30.733 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:51:50.709 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: VzcAc0cwRUHYVLQXV6VvbYpuCtmItCgs)",
+    "[LOG] 2025-1-15 18:52:28.341 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2025-1-15 18:52:28.655 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:52:28.825 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:52:28.825 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:52:28.951 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:32.319 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:32.493 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:32.658 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:32.833 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:33.127 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:33.338 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:33.768 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:33.788 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:34.189 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:34.203 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:34.403 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:52:54.382 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: eFQEO8ppjDNnLqn2HvkUGcEyCxVEaq5Z)",
+    "[LOG] 2025-1-15 18:53:4.806 [ExtensionClient] logging event 36 ",
+    "[WARN] 2025-1-15 18:53:5.119 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:5.119 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:53:5.177 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:5.243 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:8.622 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:53:11.5 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:11.5 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:11.6 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:11.6 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:11.6 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:11.6 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:53:11.63 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:13.999 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:14.549 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.27 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.27 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.164 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.164 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.164 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.197 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.375 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:18.621 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:53:19.372 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:19.372 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:19.373 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:19.373 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:53:19.611 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:19.637 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:22.953 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:23.323 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:23.448 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:53:24.61 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:53:24.61 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:53:24.115 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:29.124 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:29.750 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.83 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.135 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.247 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.483 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.872 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.886 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:30.886 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:31.118 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:31.531 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:31.783 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:31.786 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:53:51.789 [AsyncPostMessage] handleUpdateIdePlanInfo timed out (id: Ls5LDgk1lGjOx9HfrFcwkiqNPaklIPca)",
+    "[LOG] 2025-1-15 18:56:28.96 [ExtensionClient] logging event 36 ",
+    "[ERROR] 2025-1-15 18:56:28.874 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:56:29.174 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:56:29.174 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:56:29.772 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:35.494 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:36.25 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:36.455 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:56:36.879 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:56:36.879 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:56:37.370 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:37.375 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:42.405 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:56:42.875 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:56:42.875 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:56:42.900 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:42.955 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:46.712 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:48.472 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:56:49.565 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:56:49.565 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:56:49.966 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:49.968 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:53.348 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:54.38 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:54.58 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:56:54.908 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:56:54.908 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:56:54.989 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:59.860 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:56:59.862 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[WARN] 2025-1-15 18:57:0.611 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:57:0.611 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:57:0.611 [react-tooltip] Element with id 'react-tooltip-core-styles' already exists. Call `removeStyle()` first",
+    "[WARN] 2025-1-15 18:57:0.612 [react-tooltip] Element with id 'react-tooltip-base-styles' already exists. Call `removeStyle()` first",
+    "[ERROR] 2025-1-15 18:57:0.935 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:0.936 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:5.159 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:5.574 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:5.725 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:5.992 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:6.470 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:6.505 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:6.965 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:6.965 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.147 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.434 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.645 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/messageHandler.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.739 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.819 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.823 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.864 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified.",
+    "[ERROR] 2025-1-15 18:57:7.881 ConnectError: [unknown] open c:/Users/vig/CascadeProjects/ai-chatbot/services/documentationService.ts: The system cannot find the path specified."
+  ],
+  "currentCascadeId": "42a2be8b-e1e4-477e-ad5c-690f3e75c597",
+  "currentLatestStepIndex": 61,
+  "currentTrajectoryId": "4945214a-b2f0-4ee2-9d9d-840ad2ef03f5"
+}

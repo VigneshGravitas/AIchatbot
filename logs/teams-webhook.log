@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-01-15T15:59:25.399Z",
+  "method": "POST",
+  "headers": {
+    "host": "4c85-103-197-75-174.ngrok-free.app",
+    "user-agent": "curl/8.9.1",
+    "content-length": "28",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "x-forwarded-for": "103.197.75.174",
+    "x-forwarded-host": "4c85-103-197-75-174.ngrok-free.app",
+    "x-forwarded-proto": "https",
+    "accept-encoding": "gzip",
+    "x-forwarded-port": "3001"
+  },
+  "body": {
+    "text": "test curl request"
+  },
+  "url": "/api/webhooks/teams-test"
+}
+

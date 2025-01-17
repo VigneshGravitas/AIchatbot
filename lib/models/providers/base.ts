@@ -1,9 +1,18 @@
-import { Message } from 'ai';
+import { Message } from '../types';
 
 export interface ModelConfig {
+  id: string;
+  name: string;
+  provider: string;
   apiEndpoint: string;
   modelId: string;
-  parameters?: Record<string, any>;
+  parameters?: {
+    temperature?: number;
+    max_tokens?: number;
+    top_p?: number;
+    stream?: boolean;
+    [key: string]: any;
+  };
 }
 
 export interface ModelResponse {

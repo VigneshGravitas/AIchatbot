@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-01-16T21:24:49.946Z",
+  "method": "POST",
+  "url": "/api/webhooks/teams-debug",
+  "headers": {
+    "host": "localhost:3002",
+    "user-agent": "curl/8.9.1",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "23",
+    "x-forwarded-host": "localhost:3002",
+    "x-forwarded-port": "3000",
+    "x-forwarded-proto": "https",
+    "x-forwarded-for": "::1"
+  },
+  "body": {
+    "text": "test message"
+  },
+  "query": {}
+}

@@ -1,0 +1,45 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "ab7c2465-20a0-4338-aeb9-6d774aaecbf7",
+    "packageName": "com.microsoft.teams.aichatbot",
+    "developer": {
+        "name": "Your Organization",
+        "websiteUrl": "https://teams.microsoft.com",
+        "privacyUrl": "https://teams.microsoft.com",
+        "termsOfUseUrl": "https://teams.microsoft.com"
+    },
+    "name": {
+        "short": "AI Chatbot (Demo)",
+        "full": "AI Chatbot Assistant - Internal Demo"
+    },
+    "description": {
+        "short": "Internal AI chatbot demo",
+        "full": "Demo version of AI-powered chatbot for internal operations"
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "ab7c2465-20a0-4338-aeb9-6d774aaecbf7",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "ae8f-103-197-75-174.ngrok-free.app"
+    ]
+}

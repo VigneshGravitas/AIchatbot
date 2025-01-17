@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-01-17T09:56:50.249Z",
+  "method": "POST",
+  "url": "/api/webhooks/teams-debug",
+  "headers": {
+    "host": "d67c-103-197-74-101.ngrok-free.app",
+    "content-length": "2353",
+    "accept": "application/json",
+    "authorization": "HMAC th76WrLFu57WNMvMxPBGScXjlBJ5C16V9r4q4ctQXqo=",
+    "content-type": "application/json; charset=utf-8",
+    "referer": "https://teams.microsoft.com/",
+    "request-id": "|3964ababb0b7a2081d2d22712523204e.b4493b004c340e6d.",
+    "traceparent": "00-3964ababb0b7a2081d2d22712523204e-b4493b004c340e6d-00",
+    "x-forwarded-for": "52.114.244.1",
+    "x-forwarded-host": "d67c-103-197-74-101.ngrok-free.app",
+    "x-forwarded-proto": "https",
+    "accept-encoding": "gzip",
+    "x-forwarded-port": "3000"
+  },
+  "body": {
+    "type": "message",
+    "id": "1737107787792",
+    "timestamp": "2025-01-17T09:56:27.8566863+00:00",
+    "localTimestamp": "2025-01-17T15:26:27.8566863+05:30",
+    "localTimezone": "Asia/Calcutta",
+    "serviceUrl": "https://smba.trafficmanager.net/emea/7123dabd-0e87-4da9-9cb9-b7ec82011aad/",
+    "channelId": "msteams",
+    "from": {
+      "id": "29:15rcQwpfJjtCJpbSI6QFVHmj95Hex8KHxw4xl5LL-X_IxdFNWpJApiE-LJAgBpiI-6EQYIM4K3jEscVvt_9YdHg",
+      "name": "Vigneshwaran G.",
+      "aadObjectId": "f8420357-b17d-42d5-9471-bc596cd447a6",
+      "role": null
+    },
+    "conversation": {
+      "isGroup": true,
+      "conversationType": "channel",
+      "id": "19:f235901e74bf498faafa0adc61393712@thread.tacv2;messageid=1737107787792",
+      "name": null,
+      "aadObjectId": null,
+      "role": null,
+      "tenantId": "7123dabd-0e87-4da9-9cb9-b7ec82011aad"
+    },
+    "recipient": null,
+    "textFormat": "plain",
+    "attachmentLayout": null,
+    "membersAdded": null,
+    "membersRemoved": null,
+    "reactionsAdded": null,
+    "reactionsRemoved": null,
+    "topicName": null,
+    "historyDisclosed": null,
+    "locale": "en-US",
+    "text": "<p><at>AI</at>&nbsp;<at>Bot</at>&nbsp;<at>Debug</at>&nbsp;who is on call?</p>",
+    "speak": null,
+    "inputHint": null,
+    "summary": null,
+    "suggestedActions": null,
+    "attachments": [
+      {
+        "contentType": "text/html",
+        "contentUrl": null,
+        "content": "<p><span itemtype=\"http://schema.skype.com/Mention\" itemscope=\"\" itemid=\"0\">AI</span>&nbsp;<span itemtype=\"http://schema.skype.com/Mention\" itemscope=\"\" itemid=\"2\">Bot</span>&nbsp;<span itemtype=\"http://schema.skype.com/Mention\" itemscope=\"\" itemid=\"4\">Debug</span>&nbsp;who is on call?</p>",
+        "name": null,
+        "thumbnailUrl": null
+      }
+    ],
+    "entities": [
+      {
+        "type": "mention",
+        "mentioned": {
+          "id": "28:22e50a9b-80cc-4eab-a092-ce64796d28d7",
+          "name": "Bot"
+        },
+        "text": "<at>Bot</at>"
+      },
+      {
+        "type": "clientInfo",
+        "locale": "en-US",
+        "country": "US",
+        "platform": "Windows",
+        "timezone": "Asia/Calcutta"
+      }
+    ],
+    "channelData": {
+      "teamsChannelId": "19:f235901e74bf498faafa0adc61393712@thread.tacv2",
+      "teamsTeamId": "19:4sRNdjnm2FHnDsmfC5P-VdwK3yYNTCsk6rT84V9kkg41@thread.tacv2",
+      "channel": {
+        "id": "19:f235901e74bf498faafa0adc61393712@thread.tacv2"
+      },
+      "team": {
+        "id": "19:4sRNdjnm2FHnDsmfC5P-VdwK3yYNTCsk6rT84V9kkg41@thread.tacv2"
+      },
+      "tenant": {
+        "id": "7123dabd-0e87-4da9-9cb9-b7ec82011aad"
+      }
+    },
+    "action": null,
+    "replyToId": null,
+    "label": null,
+    "valueType": null,
+    "value": null,
+    "name": null,
+    "relatesTo": null,
+    "code": null,
+    "expiration": null,
+    "importance": null,
+    "deliveryMode": null,
+    "listenFor": null,
+    "textHighlights": null,
+    "semanticAction": null,
+    "callerId": "urn:botframework:azure"
+  },
+  "query": {}
+}

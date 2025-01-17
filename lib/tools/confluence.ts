@@ -109,7 +109,13 @@ async function confluenceRequest(endpoint: string, options: RequestInit = {}) {
 }
 
 // Confluence API functions
-export async function getSpaces(args: GetSpacesArgs = { limit: 25, start: 0 }): Promise<string> {
+export interface ToolResponse {
+  status: 'success' | 'error';
+  message?: string;
+  data?: any;
+}
+
+export async function getSpaces(args: GetSpacesArgs = { limit: 25, start: 0 }): Promise<ToolResponse> {
   console.log('[Confluence Debug] getSpaces called with args:', args);
   try {
     const validatedArgs = GetSpacesArgsSchema.parse(args);
@@ -120,71 +126,122 @@ export async function getSpaces(args: GetSpacesArgs = { limit: 25, start: 0 }): 
     
     if (!response.results || !Array.isArray(response.results)) {
       console.error('[Confluence Debug] Unexpected response format:', response);
-      return 'Error: Unexpected response format from Confluence API';
+      return {
+        status: 'error',
+        message: 'Unexpected response format from Confluence API'
+      };
     }
 
-    if (response.results.length === 0) {
-      console.log('[Confluence Debug] No spaces found');
-      return 'No Confluence spaces found';
-    }
-
-    console.log('[Confluence Debug] Found spaces:', response.results.length);
-    const spaces = response.results.map((space: ConfluenceSpace) => 
-      `• ${space.name}\n  Key: ${space.key}\n  Type: ${space.type}\n  URL: ${space._links.webui}`
-    ).join('\n\n');
-    
-    const result = `Found ${response.results.length} Confluence space(s):\n\n${spaces}`;
-    console.log('[Confluence Debug] Returning formatted result:', result);
-    return result;
+    return {
+      status: 'success',
+      data: response as ConfluenceSpaceList
+    };
   } catch (error: any) {
     console.error('[Confluence Debug] Error in getSpaces:', error);
-    return `Error fetching Confluence spaces: ${error.message || 'Unknown error'}`;
+    return {
+      status: 'error',
+      message: `Error fetching Confluence spaces: ${error.message || 'Unknown error'}`
+    };
   }
 }
 
-export async function searchContent(cql: string): Promise<any> {
-  return confluenceRequest(`/content/search?cql=${encodeURIComponent(cql)}`);
+export async function searchContent(cql: string): Promise<ToolResponse> {
+  try {
+    const response = await confluenceRequest(`/content/search?cql=${encodeURIComponent(cql)}`);
+    return {
+      status: 'success',
+      data: response
+    };
+  } catch (error: any) {
+    return {
+      status: 'error',
+      message: `Error searching Confluence: ${error.message || 'Unknown error'}`
+    };
+  }
 }
 
-export async function getPagesInSpace(spaceKey: string): Promise<ConfluencePageList> {
-  return confluenceRequest(`/content?spaceKey=${spaceKey}&expand=body.storage`);
+export async function getPagesInSpace(spaceKey: string): Promise<ToolResponse> {
+  try {
+    const response = await confluenceRequest(`/content?spaceKey=${spaceKey}&expand=body.storage`);
+    return {
+      status: 'success',
+      data: response as ConfluencePageList
+    };
+  } catch (error: any) {
+    return {
+      status: 'error',
+      message: `Error fetching pages: ${error.message || 'Unknown error'}`
+    };
+  }
 }
 
-export async function getPageById(pageId: string): Promise<ConfluencePage> {
-  return confluenceRequest(`/content/${pageId}?expand=body.storage`);
+export async function getPageById(pageId: string): Promise<ToolResponse> {
+  try {
+    const response = await confluenceRequest(`/content/${pageId}?expand=body.storage,version`);
+    return {
+      status: 'success',
+      data: response as ConfluencePage
+    };
+  } catch (error: any) {
+    return {
+      status: 'error',
+      message: `Error fetching page: ${error.message || 'Unknown error'}`
+    };
+  }
 }
 
-export async function createPage(spaceKey: string, title: string, content: string): Promise<ConfluencePage> {
-  const validatedArgs = CreatePageArgsSchema.parse({ spaceKey, title, content });
-  return confluenceRequest('/content', {
-    method: 'POST',
-    body: JSON.stringify({
-      type: 'page',
-      title: validatedArgs.title,
-      space: { key: validatedArgs.spaceKey },
-      body: {
-        storage: {
-          value: validatedArgs.content,
-          representation: 'storage'
+export async function createPage(spaceKey: string, title: string, content: string): Promise<ToolResponse> {
+  try {
+    const response = await confluenceRequest('/content', {
+      method: 'POST',
+      body: JSON.stringify({
+        type: 'page',
+        title,
+        space: { key: spaceKey },
+        body: {
+          storage: {
+            value: content,
+            representation: 'storage'
+          }
         }
-      }
-    })
-  });
+      })
+    });
+    return {
+      status: 'success',
+      data: response as ConfluencePage
+    };
+  } catch (error: any) {
+    return {
+      status: 'error',
+      message: `Error creating page: ${error.message || 'Unknown error'}`
+    };
+  }
 }
 
-export async function updatePage(pageId: string, title: string, content: string, version: number): Promise<ConfluencePage> {
-  return confluenceRequest(`/content/${pageId}`, {
-    method: 'PUT',
-    body: JSON.stringify({
-      type: 'page',
-      title,
-      body: {
-        storage: {
-          value: content,
-          representation: 'storage'
-        }
-      },
-      version: { number: version + 1 }
-    })
-  });
+export async function updatePage(pageId: string, title: string, content: string, version: number): Promise<ToolResponse> {
+  try {
+    const response = await confluenceRequest(`/content/${pageId}`, {
+      method: 'PUT',
+      body: JSON.stringify({
+        type: 'page',
+        title,
+        body: {
+          storage: {
+            value: content,
+            representation: 'storage'
+          }
+        },
+        version: { number: version + 1 }
+      })
+    });
+    return {
+      status: 'success',
+      data: response as ConfluencePage
+    };
+  } catch (error: any) {
+    return {
+      status: 'error',
+      message: `Error updating page: ${error.message || 'Unknown error'}`
+    };
+  }
 }

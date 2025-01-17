@@ -31,6 +31,7 @@ export interface OpsGenieOnCallParticipant {
   id: string;
   name: string;
   type: string;
+  scheduleName: string;
 }
 
 export interface OpsGenieResponse {
@@ -57,9 +58,14 @@ export const GetOnCallParticipantsArgsSchema = z.object({
   scheduleName: z.string().optional(),
 });
 
+export const GetOnCallArgsSchema = z.object({
+  scheduleName: z.string().optional(),
+});
+
 export type GetAlertsArgs = z.infer<typeof GetAlertsArgsSchema>;
 export type GetSchedulesArgs = z.infer<typeof GetSchedulesArgsSchema>;
 export type GetOnCallParticipantsArgs = z.infer<typeof GetOnCallParticipantsArgsSchema>;
+export type GetOnCallArgs = z.infer<typeof GetOnCallArgsSchema>;
 
 // OpsGenie API functions
 export async function getAlerts(args: GetAlertsArgs): Promise<OpsGenieResponse> {
@@ -218,18 +224,24 @@ export async function getSchedules(args: GetSchedulesArgs): Promise<OpsGenieResp
 // Function to get on-call participants
 export async function getOnCallParticipants(args: GetOnCallParticipantsArgs): Promise<OpsGenieResponse> {
   try {
+    console.log('Starting getOnCallParticipants with args:', args);
     const validatedArgs = GetOnCallParticipantsArgsSchema.parse(args);
+    console.log('Validated args:', validatedArgs);
 
     // First get all schedules if no specific schedule is provided
     if (!validatedArgs.scheduleId && !validatedArgs.scheduleName) {
+      console.log('No specific schedule provided, fetching all schedules');
       const schedules = await getSchedules({ limit: 100 });
+      console.log('Got schedules:', schedules);
+      
       if (schedules.status === 'error' || !schedules.schedules) {
-        throw new Error('Failed to fetch schedules');
+        throw new Error('Failed to fetch schedules: ' + schedules.message);
       }
 
       // Get on-call participants for each schedule
       const allParticipants: OpsGenieOnCallParticipant[] = [];
       for (const schedule of schedules.schedules) {
+        console.log('Fetching participants for schedule:', schedule.name);
         const response = await fetch(`${OPSGENIE_BASE_URL}/schedules/${schedule.id}/on-calls`, {
           method: 'GET',
           headers: {
@@ -238,21 +250,36 @@ export async function getOnCallParticipants(args: GetOnCallParticipantsArgs): Pr
           },
         });
 
+        console.log('OpsGenie API response status:', response.status);
+        if (!response.ok) {
+          const errorText = await response.text();
+          console.error('OpsGenie API error:', errorText);
+          throw new Error(`OpsGenie API error: ${response.status} - ${errorText}`);
+        }
+
         if (response.ok) {
           const data = await response.json();
+          console.log('Got participants data:', data);
           if (data.data?.onCallParticipants?.length > 0) {
+            // Add schedule name to each participant
             allParticipants.push(...data.data.onCallParticipants.map((p: any) => ({
-              ...p,
-              scheduleName: schedule.name,
+              id: p.id,
+              name: p.name,
+              type: p.type,
+              scheduleName: schedule.name
             })));
           }
         }
       }
 
+      console.log('Final participants list:', allParticipants);
       return {
         status: 'success',
         onCallParticipants: allParticipants,
         total: allParticipants.length,
+        message: allParticipants.length > 0 
+          ? `Current on-call: ${allParticipants.map(p => `${p.name} (${p.scheduleName})`).join(', ')}`
+          : 'No one is currently on call'
       };
     }
 
@@ -286,16 +313,110 @@ export async function getOnCallParticipants(args: GetOnCallParticipantsArgs): Pr
     }
 
     const data = await response.json();
+    // Add schedule name to each participant
+    const participants = data.data?.onCallParticipants?.map((p: any) => ({
+      id: p.id,
+      name: p.name,
+      type: p.type,
+      scheduleName: data.data._parent.name
+    })) || [];
+
     return {
       status: 'success',
-      onCallParticipants: data.data.onCallParticipants || [],
-      total: data.data.onCallParticipants?.length || 0,
+      onCallParticipants: participants,
+      total: participants.length,
     };
   } catch (error) {
     console.error('Error fetching OpsGenie on-call participants:', error);
     return {
       status: 'error',
       message: error instanceof Error ? error.message : 'Unknown error occurred',
+    };
+  }
+}
+
+// Function to get who is on call
+export async function getOnCall(args: GetOnCallArgs): Promise<OpsGenieResponse> {
+  try {
+    console.log('Getting on-call information', { args });
+    
+    // First, get all schedules
+    const schedulesResponse = await fetch(`${OPSGENIE_BASE_URL}/schedules`, {
+      method: 'GET',
+      headers: {
+        'Authorization': `GenieKey ${OPSGENIE_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+    });
+
+    if (!schedulesResponse.ok) {
+      console.error('Failed to fetch schedules:', schedulesResponse.statusText);
+      throw new Error(`OpsGenie API error: ${schedulesResponse.statusText}`);
+    }
+
+    const schedulesData = await schedulesResponse.json();
+    console.log('Schedules response:', schedulesData);
+    const schedules = schedulesData.data || [];
+
+    // If scheduleName is provided, filter for that schedule
+    const targetSchedules = args.scheduleName 
+      ? schedules.filter((s: OpsGenieSchedule) => s.name === args.scheduleName)
+      : schedules;
+
+    console.log('Target schedules:', targetSchedules);
+
+    if (targetSchedules.length === 0) {
+      console.log('No schedules found', { args });
+      return {
+        status: 'error',
+        message: args.scheduleName 
+          ? `Schedule "${args.scheduleName}" not found`
+          : 'No schedules found',
+      };
+    }
+
+    // Get on-call participants for each schedule
+    const onCallParticipants: OpsGenieOnCallParticipant[] = [];
+    
+    for (const schedule of targetSchedules) {
+      console.log('Fetching on-call for schedule:', schedule.name);
+      const onCallResponse = await fetch(`${OPSGENIE_BASE_URL}/schedules/${schedule.id}/on-calls`, {
+        method: 'GET',
+        headers: {
+          'Authorization': `GenieKey ${OPSGENIE_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (!onCallResponse.ok) {
+        console.error(`Failed to get on-call info for schedule ${schedule.name}:`, onCallResponse.statusText);
+        continue;
+      }
+
+      const onCallData = await onCallResponse.json();
+      console.log('On-call data for schedule:', schedule.name, onCallData);
+      const participants = onCallData.data?.onCallParticipants || [];
+      
+      participants.forEach((p: any) => {
+        onCallParticipants.push({
+          id: p.id,
+          name: p.name,
+          type: p.type,
+          scheduleName: schedule.name,
+        });
+      });
+    }
+
+    console.log('Final on-call participants:', onCallParticipants);
+    return {
+      status: 'success',
+      onCallParticipants,
+    };
+  } catch (error) {
+    console.error('Error in getOnCall:', error);
+    return {
+      status: 'error',
+      message: error instanceof Error ? error.message : 'Failed to get on-call information',
     };
   }
 }

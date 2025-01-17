@@ -1,63 +1,92 @@
-import { Message } from 'ai';
-import { ModelProvider, ModelResponse, ChatRequestOptions } from './base';
-
-interface ChatCompletionResponse {
-  response: ModelResponse;
-}
+import { Message, MessageRole, LMStudioMessage } from '../types';
+import { ModelProvider, ModelResponse, ChatRequestOptions, ModelConfig } from './base';
+import { log } from '@/lib/utils/logger';
 
 export class LMStudioProvider extends ModelProvider {
-  async generateChatCompletion(messages: Message[], options?: ChatRequestOptions): Promise<ChatCompletionResponse> {
+  constructor(config: ModelConfig) {
+    super(config);
+  }
+
+  async generateChatCompletion(messages: Message[], options?: ChatRequestOptions): Promise<ModelResponse> {
     try {
       // Add system message if not present
-      if (!messages.find(m => m.role === 'system')) {
-        messages = [
-          {
-            role: 'system',
-            content: 'You are a helpful AI assistant. When users ask about products or information, use the appropriate tools to help them. Always use tools when available instead of making up responses.'
-          },
-          ...messages
-        ];
-      }
-
-      const requestBody = {
-        messages: messages.map(m => ({
-          role: m.role,
-          content: m.content
-        })),
-        model: this.config.modelId,
-        ...this.config.parameters,
-        stream: true,
-        ...(options?.tools && {
-          tools: options.tools,
-          tool_choice: 'auto'
-        })
+      const hasSystemMessage = messages.some(m => m.role === 'system');
+      const systemMessage: Message = {
+        role: 'system' as MessageRole,
+        content: 'You are a helpful AI assistant. You must ALWAYS respond in English, regardless of the input language. When users ask about on-call information, use the opsgenie.getOnCall tool to get current on-call details. Always use tools when available instead of making up responses.'
       };
 
-      console.log('LMStudio Request:', JSON.stringify(requestBody, null, 2));
+      // Process messages
+      const processedMessages = messages.filter(m => m.role !== 'system');
+      if (!hasSystemMessage) {
+        processedMessages.unshift(systemMessage);
+      }
+
+      const formattedMessages = this.formatMessages(processedMessages);
+      log('LMSTUDIO_FORMATTED_MESSAGES', { formattedMessages });
+
+      const requestBody = {
+        model: this.config.modelId || 'qwen2.5-7b-instruct',
+        messages: formattedMessages,
+        temperature: this.config.parameters?.temperature || 0.7,
+        max_tokens: this.config.parameters?.max_tokens || 2048,
+        top_p: this.config.parameters?.top_p || 0.9,
+        stream: this.config.parameters?.stream || false,
+        tools: options?.tools || [],
+        tool_choice: "auto"
+      };
+
+      log('LMSTUDIO_REQUEST', requestBody);
 
       const response = await fetch(this.config.apiEndpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'text/event-stream'
         },
         body: JSON.stringify(requestBody)
       });
 
+      log('LMSTUDIO_RESPONSE_STATUS', { 
+        status: response.status, 
+        statusText: response.statusText,
+      });
+
       if (!response.ok) {
         const errorText = await response.text();
-        console.error('LMStudio Error:', {
-          status: response.status,
+        log('LMSTUDIO_ERROR', { 
+          status: response.status, 
           statusText: response.statusText,
           error: errorText
         });
-        await this.handleError(response);
+        throw new Error(`LMStudio API error: ${response.status} - ${errorText}`);
       }
 
-      return { response };
+      return {
+        response
+      };
     } catch (error) {
-      console.error('LMStudio Provider Error:', error);
+      log('LMSTUDIO_ERROR', { 
+        error,
+        message: error instanceof Error ? error.message : 'Unknown error',
+        stack: error instanceof Error ? error.stack : undefined 
+      });
       throw error;
     }
+  }
+
+  private formatMessages(messages: Message[]): LMStudioMessage[] {
+    return messages.map(message => {
+      const formattedMessage: LMStudioMessage = {
+        role: message.role,
+        content: message.content
+      };
+
+      // Only add tool_calls if present
+      if (message.tool_calls && message.tool_calls.length > 0) {
+        formattedMessage.tool_calls = message.tool_calls;
+      }
+
+      return formattedMessage;
+    });
   }
 }
