@@ -708,7 +708,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
                 // Send response via incoming webhook
                 log('SENDING_TEAMS_WEBHOOK', { requestId });
-                const webhookResult = await fetch('https://niceonline.webhook.office.com/webhookb2/48f359ed-d0a2-4633-bb9e-8f9ebafa5a03@7123dabd-0e87-4da9-9cb9-b7ec82011aad/IncomingWebhook/e06a81a328d5451d8ff0f94faab6ff35/f8420357-b17d-42d5-9471-bc596cd447a6/V21pi1kabUERRGL7t9Zwm8g-6bm7zSJuMQZZiaCkVcpVc1', {
+                const webhookResult = await fetch('https://x/y', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
