@@ -1,6 +1,7 @@
 import { productSearch } from './product';
 import { getSpaces, getPagesInSpace as getPages, searchContent, createPage } from './confluence';
-import { getAlerts, createAlert, getSchedules, getOnCallParticipants } from './opsgenie';
+import { getAlerts, createAlert, getSchedules, getOnCallParticipants, getOnCall } from './opsgenie';
+import { log } from '@/lib/utils/logger';
 
 interface ToolFunction {
   description: string;
@@ -11,23 +12,27 @@ interface ToolFunction {
   };
 }
 
-export const tools: Record<string, (...args: any[]) => Promise<any>> = {
-  // Product search
+// Log available tools on startup
+const availableTools = {
   'product.search': productSearch,
-
-  // Confluence tools
   'confluence.getSpaces': getSpaces,
   'confluence.getPages': getPages,
   'confluence.search': searchContent,
   'confluence.createPage': createPage,
-
-  // OpsGenie tools
   'opsgenie.getAlerts': getAlerts,
   'opsgenie.createAlert': createAlert,
   'opsgenie.getSchedules': getSchedules,
-  'opsgenie.getOnCall': getOnCallParticipants,
+  'opsgenie.getOnCallParticipants': getOnCallParticipants,
+  'opsgenie.getOnCall': getOnCall,
 };
 
+log('TOOLS_INITIALIZED', {
+  availableTools: Object.keys(availableTools)
+});
+
+export const tools = availableTools;
+
+// Tool definitions for LLM
 export const toolDefinitions: Record<string, ToolFunction> = {
   'product.search': {
     description: 'Search for products in the database',
@@ -137,7 +142,7 @@ export const toolDefinitions: Record<string, ToolFunction> = {
     }
   },
 
-  'opsgenie.getOnCall': {
+  'opsgenie.getOnCallParticipants': {
     description: 'Get current on-call participants from OpsGenie schedules',
     parameters: {
       type: 'object',
@@ -147,5 +152,23 @@ export const toolDefinitions: Record<string, ToolFunction> = {
       },
       required: []
     }
+  },
+
+  'opsgenie.getOnCall': {
+    description: 'Get the current on-call person from OpsGenie',
+    parameters: {
+      type: 'object',
+      properties: {
+        scheduleName: {
+          type: 'string',
+          description: 'Name of the schedule to check (optional)'
+        }
+      },
+      required: []
+    }
   }
 };
+
+log('TOOL_DEFINITIONS_INITIALIZED', {
+  toolDefinitions: Object.keys(toolDefinitions)
+});
